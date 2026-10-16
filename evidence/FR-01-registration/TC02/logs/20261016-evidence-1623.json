@@ -1,0 +1,17 @@
+{
+  "id": "TC02",
+  "source": "Domain Testing",
+  "description": "Từ chối họ và tên bị bỏ trống",
+  "expected": "Từ chối đăng ký và thông báo họ và tên là trường bắt buộc.",
+  "actual": {
+    "nativeFormValidationBlockedSubmit": true,
+    "validationMessage": "Please fill out this field.",
+    "url": "http://localhost:5173/register"
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:32:22.935Z",
+  "durationMs": 1437,
+  "screenshotPath": "screenshots/TC02-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

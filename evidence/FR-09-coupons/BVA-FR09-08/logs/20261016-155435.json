@@ -1,0 +1,22 @@
+{
+  "id": "BVA-FR09-08",
+  "source": "BVA",
+  "description": "Số lượt đã dùng bằng giới hạn VIP100",
+  "expected": "Từ chối khi đã dùng đủ 2 lượt.",
+  "actual": {
+    "applied": false,
+    "httpStatus": 400,
+    "responseBody": {
+      "error": "Bạn đã sử dụng mã này 2 lần (đã đạt giới hạn)"
+    },
+    "display": "",
+    "error": "Bạn đã sử dụng mã này 2 lần (đã đạt giới hạn)",
+    "total": 500000,
+    "coupon": "VIP100",
+    "recordedUseCount": 2,
+    "expectedAccepted": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:55:46.447Z",
+  "durationMs": 1150
+}

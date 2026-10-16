@@ -1,0 +1,21 @@
+{
+  "id": "BVA-FR17-09",
+  "source": "BVA",
+  "description": "Kiểm tra biên min_order_amount = 1 (percent)",
+  "expected": "Chấp nhận điều kiện ngưỡng đơn hàng bằng 1.",
+  "actual": {
+    "field": "min_order_amount",
+    "value": 1,
+    "type": "percent",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 171
+    },
+    "listedInAdminTable": true,
+    "nativeFormValidationBlockedSubmit": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:57:07.500Z",
+  "durationMs": 641
+}

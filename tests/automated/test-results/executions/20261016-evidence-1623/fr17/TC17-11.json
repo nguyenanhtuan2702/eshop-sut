@@ -1,0 +1,16 @@
+{
+  "id": "TC17-11",
+  "source": "Domain Testing",
+  "description": "Từ chối giới hạn lượt sử dụng bằng 0",
+  "expected": "Từ chối vì max_uses_per_user phải từ 1 trở lên.",
+  "actual": {
+    "nativeFormValidationBlockedSubmit": true,
+    "requestSent": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:33:29.016Z",
+  "durationMs": 6044,
+  "screenshotPath": "screenshots/TC17-11-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "BVA-FR17-03",
+  "source": "BVA",
+  "description": "Kiểm tra biên discount_value = 1 (percent)",
+  "expected": "Chấp nhận điều kiện giá trị giảm.",
+  "actual": {
+    "field": "discount_value",
+    "value": 1,
+    "type": "percent",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 183
+    },
+    "listedInAdminTable": true,
+    "nativeFormValidationBlockedSubmit": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:33:40.509Z",
+  "durationMs": 1030,
+  "screenshotPath": "screenshots/BVA-FR17-03-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "TC17-08",
+  "source": "Domain Testing",
+  "description": "Từ chối discount_value âm",
+  "expected": "Từ chối vì giá trị giảm không dương.",
+  "actual": {
+    "submittedDiscountValue": -1,
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 159
+    },
+    "listedInAdminTable": true
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:56:18.700Z",
+  "durationMs": 594
+}

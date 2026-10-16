@@ -1,0 +1,18 @@
+{
+  "id": "TC10",
+  "source": "Domain Testing",
+  "description": "Mật khẩu không có ký tự đặc biệt được chấp nhận",
+  "expected": "Từ chối đăng ký vì mật khẩu không chứa ký tự đặc biệt được chấp nhận.",
+  "actual": {
+    "url": "http://localhost:3000/api/register",
+    "status": 200,
+    "body": {
+      "message": "User registered successfully",
+      "id": 56
+    },
+    "submittedPassword": "Abcdefg1"
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:55:01.580Z",
+  "durationMs": 51
+}

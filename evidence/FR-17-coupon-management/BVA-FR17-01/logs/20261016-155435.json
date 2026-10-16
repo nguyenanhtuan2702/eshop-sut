@@ -1,0 +1,21 @@
+{
+  "id": "BVA-FR17-01",
+  "source": "BVA",
+  "description": "Kiểm tra biên discount_value = -1 (percent)",
+  "expected": "Từ chối vì giá trị giảm không dương.",
+  "actual": {
+    "field": "discount_value",
+    "value": -1,
+    "type": "percent",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 163
+    },
+    "listedInAdminTable": true,
+    "nativeFormValidationBlockedSubmit": false
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:56:42.823Z",
+  "durationMs": 611
+}

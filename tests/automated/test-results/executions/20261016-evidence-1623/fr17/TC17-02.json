@@ -1,0 +1,21 @@
+{
+  "id": "TC17-02",
+  "source": "Domain Testing",
+  "description": "Tạo mã giảm giá loại số tiền cố định",
+  "expected": "Tạo mã fixed hợp lệ thành công và hiển thị trong danh sách.",
+  "actual": {
+    "code": "QA1016EVIDENCE1623T1702",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 179
+    },
+    "listedInAdminTable": true
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:33:06.234Z",
+  "durationMs": 1024,
+  "screenshotPath": "screenshots/TC17-02-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

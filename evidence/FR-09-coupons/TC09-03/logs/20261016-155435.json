@@ -1,0 +1,18 @@
+{
+  "id": "TC09-03",
+  "source": "Domain Testing",
+  "description": "Từ chối mã đang bị vô hiệu hóa",
+  "expected": "Từ chối áp dụng vì mã tồn tại nhưng không hoạt động.",
+  "actual": {
+    "applied": false,
+    "httpStatus": 404,
+    "responseBody": {
+      "error": "Mã giảm giá không tồn tại hoặc đã bị vô hiệu hóa"
+    },
+    "display": "",
+    "error": "Mã giảm giá không tồn tại hoặc đã bị vô hiệu hóa"
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:55:19.511Z",
+  "durationMs": 1010
+}

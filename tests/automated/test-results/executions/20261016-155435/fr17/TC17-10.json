@@ -1,0 +1,18 @@
+{
+  "id": "TC17-10",
+  "source": "Domain Testing",
+  "description": "Từ chối ngưỡng đơn hàng âm",
+  "expected": "Từ chối vì min_order_amount phải lớn hơn hoặc bằng 0.",
+  "actual": {
+    "submittedMinOrderAmount": -1,
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 160
+    },
+    "listedInAdminTable": true
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:56:29.071Z",
+  "durationMs": 631
+}

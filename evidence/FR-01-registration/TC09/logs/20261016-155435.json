@@ -1,0 +1,18 @@
+{
+  "id": "TC09",
+  "source": "Domain Testing",
+  "description": "Mật khẩu không có chữ số",
+  "expected": "Từ chối đăng ký vì mật khẩu không có chữ số.",
+  "actual": {
+    "url": "http://localhost:3000/api/register",
+    "status": 200,
+    "body": {
+      "message": "User registered successfully",
+      "id": 55
+    },
+    "submittedPassword": "Abcdefg!"
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:54:59.140Z",
+  "durationMs": 58
+}

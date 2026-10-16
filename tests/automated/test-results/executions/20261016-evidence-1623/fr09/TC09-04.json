@@ -1,0 +1,21 @@
+{
+  "id": "TC09-04",
+  "source": "Domain Testing",
+  "description": "Từ chối mã EXPIRED",
+  "expected": "Từ chối áp dụng vì ngày hiện tại không còn trước ngày hết hạn.",
+  "actual": {
+    "applied": false,
+    "httpStatus": 400,
+    "responseBody": {
+      "error": "Mã giảm giá đã hết hạn"
+    },
+    "display": "",
+    "error": "Mã giảm giá đã hết hạn"
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:32:35.068Z",
+  "durationMs": 1011,
+  "screenshotPath": "screenshots/TC09-04-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

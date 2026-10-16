@@ -1,0 +1,13 @@
+{
+  "id": "TC17-12",
+  "source": "Domain Testing",
+  "description": "Xem danh sách mã giảm giá",
+  "expected": "Danh sách hiển thị mã kiểm thử đã tạo và các thông tin tương ứng.",
+  "actual": {
+    "code": "QA20261016155435T1712",
+    "listedInAdminTable": true
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:56:39.625Z",
+  "durationMs": 343
+}

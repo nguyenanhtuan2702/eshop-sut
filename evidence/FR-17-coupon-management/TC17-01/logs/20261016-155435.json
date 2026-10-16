@@ -1,0 +1,18 @@
+{
+  "id": "TC17-01",
+  "source": "Domain Testing",
+  "description": "Tạo mã giảm giá loại phần trăm",
+  "expected": "Tạo mã percent hợp lệ thành công và hiển thị trong danh sách.",
+  "actual": {
+    "code": "QA20261016155435T1701",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 153
+    },
+    "listedInAdminTable": true
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:55:54.231Z",
+  "durationMs": 610
+}

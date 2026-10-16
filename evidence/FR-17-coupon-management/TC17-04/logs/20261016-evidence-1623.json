@@ -1,0 +1,18 @@
+{
+  "id": "TC17-04",
+  "source": "Domain Testing",
+  "description": "Từ chối tạo mã code bị trùng",
+  "expected": "Từ chối tạo mã vì code đã tồn tại.",
+  "actual": {
+    "httpStatus": 500,
+    "response": {
+      "error": "SQLITE_CONSTRAINT: UNIQUE constraint failed: coupons.code"
+    }
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:33:16.042Z",
+  "durationMs": 4145,
+  "screenshotPath": "screenshots/TC17-04-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

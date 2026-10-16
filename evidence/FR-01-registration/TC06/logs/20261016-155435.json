@@ -1,0 +1,18 @@
+{
+  "id": "TC06",
+  "source": "Domain Testing",
+  "description": "Mật khẩu ngắn hơn 8 ký tự",
+  "expected": "Từ chối đăng ký vì mật khẩu không đáp ứng độ dài tối thiểu.",
+  "actual": {
+    "url": "http://localhost:3000/api/register",
+    "status": 200,
+    "body": {
+      "message": "User registered successfully",
+      "id": 52
+    },
+    "submittedPassword": "Ab1!"
+  },
+  "status": "FAIL",
+  "startedAt": "2026-10-16T08:54:51.133Z",
+  "durationMs": 66
+}

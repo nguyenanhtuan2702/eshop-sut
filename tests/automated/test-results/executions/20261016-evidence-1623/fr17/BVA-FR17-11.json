@@ -1,0 +1,24 @@
+{
+  "id": "BVA-FR17-11",
+  "source": "BVA",
+  "description": "Kiểm tra biên max_uses_per_user = 1 (fixed)",
+  "expected": "Chấp nhận điều kiện giới hạn lượt dùng bằng 1.",
+  "actual": {
+    "field": "max_uses_per_user",
+    "value": 1,
+    "type": "fixed",
+    "httpStatus": 200,
+    "response": {
+      "message": "Coupon created",
+      "id": 187
+    },
+    "listedInAdminTable": true,
+    "nativeFormValidationBlockedSubmit": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:33:59.746Z",
+  "durationMs": 1099,
+  "screenshotPath": "screenshots/BVA-FR17-11-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "BVA-FR09-05",
+  "source": "BVA",
+  "description": "Ngày hết hạn bằng T0",
+  "expected": "Từ chối theo điều kiện ngày hiện tại phải trước ngày hết hạn.",
+  "actual": {
+    "applied": false,
+    "httpStatus": 400,
+    "responseBody": {
+      "error": "Mã giảm giá đã hết hạn"
+    },
+    "display": "",
+    "error": "Mã giảm giá đã hết hạn",
+    "total": 500000,
+    "coupon": "QA1016EVIDENCE1623TODAY",
+    "recordedUseCount": 0,
+    "expectedAccepted": false
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:32:43.554Z",
+  "durationMs": 2144,
+  "screenshotPath": "screenshots/BVA-FR09-05-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

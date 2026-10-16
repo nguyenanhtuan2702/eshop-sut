@@ -1,0 +1,21 @@
+{
+  "id": "TC09-05",
+  "source": "Domain Testing",
+  "description": "Từ chối đơn hàng thấp hơn ngưỡng BIGBUY",
+  "expected": "Từ chối vì 499.999 ₫ nhỏ hơn ngưỡng 500.000 ₫.",
+  "actual": {
+    "applied": false,
+    "httpStatus": 400,
+    "responseBody": {
+      "error": "Đơn hàng chưa đủ giá trị tối thiểu 500,000 ₫ để áp dụng mã này"
+    },
+    "display": "",
+    "error": "Đơn hàng chưa đủ giá trị tối thiểu 500,000 ₫ để áp dụng mã này"
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T09:32:36.344Z",
+  "durationMs": 1154,
+  "screenshotPath": "screenshots/TC09-05-PASS.png",
+  "screenshotSkippedReason": null,
+  "screenshotError": null
+}

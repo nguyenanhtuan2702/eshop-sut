@@ -1,0 +1,26 @@
+{
+  "id": "BVA-FR09-06",
+  "source": "BVA",
+  "description": "Ngày hết hạn nằm sau T0",
+  "expected": "Chấp nhận điều kiện hạn sử dụng.",
+  "actual": {
+    "applied": true,
+    "httpStatus": 200,
+    "responseBody": {
+      "success": true,
+      "coupon_id": 152,
+      "discount_amount": 0,
+      "final_amount": 500000,
+      "message": "Áp dụng thành công! Giảm 1%"
+    },
+    "display": "✅ Áp dụng thành công! Giảm 1%\n\nTiết kiệm: 0 ₫\n\nThành tiền: 500,000 ₫",
+    "error": "",
+    "total": 500000,
+    "coupon": "QA20261016155435TOMORROW",
+    "recordedUseCount": 0,
+    "expectedAccepted": true
+  },
+  "status": "PASS",
+  "startedAt": "2026-10-16T08:55:43.576Z",
+  "durationMs": 1084
+}
